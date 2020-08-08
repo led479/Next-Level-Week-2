@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { Poppins, PoppinsSemiBold, ArchivoBold } from "../../utils/fonts";
 
 const styles = StyleSheet.create({
   container: {
@@ -14,7 +15,7 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontFamily: "Poppins_400Regular",
+    fontFamily: Poppins,
     color: "#FFF",
     fontSize: 20,
     lineHeight: 30,
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
   },
 
   titleBold: {
-    fontFamily: "Poppins_600SemiBold",
+    fontFamily: PoppinsSemiBold,
   },
 
   buttonsContainer: {
@@ -49,13 +50,13 @@ const styles = StyleSheet.create({
   },
 
   buttonText: {
-    fontFamily: "Archivo_700Bold",
+    fontFamily: ArchivoBold,
     color: "#FFF",
     fontSize: 20,
   },
 
   totalConnections: {
-    fontFamily: "Poppins_400Regular",
+    fontFamily: Poppins,
     color: "#d4c2ff",
     fontSize: 12,
     lineHeight: 20,
